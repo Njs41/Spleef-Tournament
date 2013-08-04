@@ -7,7 +7,7 @@ spleef = {
 	floorHighX = 825,
 	floorHighZ = -1005,
 	floorBreakData = {},
-	repairTimer = Timer:new("spleef_repairFloorStep", 2),
+	repairTimer = Timer:new("spleef_repairFloorStep", 1),
 	startAnnouce1 = Timer:new("spleef_startAnnouce1", 30 * 20),
 	startAnnouce2 = Timer:new("spleef_startAnnouce2", 15 * 20),
 	startAnnouce3 = Timer:new("spleef_startAnnouce3", 15 * 20),
@@ -77,6 +77,17 @@ spleef = {
 				{808,-1001}
 			}
 };
+
+
+--spleef.players['mddoctor1016'] = 1;
+--spleef.players['thewolfmaniac'] = 1;
+spleef.players['MkX13'] = 1;
+--spleef.players['Crayble1'] = 1;
+--spleef.players['njs41'] = 1;
+spleef.players['ValconCrafter'] = 1;
+spleef.players['Jesse_070296'] = 1;
+spleef.players['Proto007'] = 1;
+spleef.players['kiiaz'] = 1;
 
 function spleef.broadcast(message)
 	spleef.world:broadcast("&3[Spleef]: &b" .. message);
